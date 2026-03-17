@@ -1,9 +1,8 @@
 {
   "mcpServers": {
     "ouroboros": {
-      "command": "uv",
-      "args": ["run", "--directory", "/Users/jaegyu.lee/Project/ouroboros", "ouroboros", "mcp", "serve"],
-      "timeout": 600
+      "command": "uvx",
+      "args": ["--from", "ouroboros-ai", "ouroboros", "mcp", "serve"]
     }
   }
 }
